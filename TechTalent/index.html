@@ -2,28 +2,30 @@
      <h1>Đăng ký ứng tuyển TechTalent</h1>
     <fieldset>
         <legend>Thông tin cá nhân</legend>
-        <label>Họ và tên:</label> 
-        <input type="text" placeholder="Nhập tên"> <br>
+        <label for="name">Họ và tên:</label> 
+        <input type="text" id="name" placeholder="Nhập tên" required><br>
         Giới tính:
     <label for="male">Nam</label>
-    <input type="radio" id="male" name="gender">
+    <input type="radio" id="male" name="gender" required>
     <label for="female">Nữ</label>
-    <input type="radio" id="female" name="gender"> <br>
-    Ngày sinh (dd/mm/yyyy): <input type="date"> <br>
+    <input type="radio" id="female" name="gender" required> <br>
+    Ngày sinh (dd/mm/yyyy): <input type="date" id="birthdate" required> <br>
     <label for="email">Email:</label>
-    <input type="email" id="email" placeholder="Nhập email">
+    <input type="email" id="email" placeholder="Nhập email" required>
     </fieldset>
     <fieldset>
         <legend>Thông tin đăng ký</legend>
          <label for="position">Vị trí ứng tuyển:</label>
-         <input type="text" id="position" placeholder="Nhập vị trí ứng tuyển"> <br>
+         <input type="text" id="position" placeholder="Nhập vị trí ứng tuyển" required> <br>
          <label for="experience">Kinh nghiệm làm việc:</label>
-         <input type="text" id="experience" placeholder="Nhập kinh nghiệm"> <br>
+         <input type="text" id="experience" placeholder="Nhập kinh nghiệm" required> <br>
          <label for="education">Trình độ học vấn:</label>
-         <input type="text" id="education" placeholder="Nhập trình độ học vấn"> <br>
+         <input type="text" id="education" placeholder="Nhập trình độ học vấn" required> <br>
          <label for="password">Mật khẩu hệ thống:</label>
-         <input type="password" id="password" placeholder="Tạo mật khẩu"> <br>
-         <label for="cv">Nộp CV (Định dạng PDF):</label>
-         <input type="file" id="cv" placeholder="Dán link hoặc đường dẫn file"> <br>
+         <input type="password" id="password" placeholder="Tạo mật khẩu" required> <br>
+         <label for="cv">Nộp CV (Định dạng PDF) :</label>
+         <input type="file" id="cv" accept=".pdf" required> <br>
+        </fieldset>
+
     <button>Gửi Hồ Sơ</button>
 </form>
