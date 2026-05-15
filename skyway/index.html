@@ -1,0 +1,92 @@
+<form method="post" action="/book-flight">
+    <h2>Đặt vé máy bay</h2>
+    <div>
+        <fieldset>
+                <label for="name">Tên:</label> <input type="text" id="name" class="name-box" required><br>
+                <label for="email">Email:</label> <input type="email" id="email" class="mail-box" required> <br>
+                <label for="seat">Hạng ghế:</label> <input type="text" id="seat" required> <br> 
+                <label for="time">Giờ bay:</label> <input type="text" id="time" required> <br>
+                <label for="male">Nam</label>
+                <input type="radio" id="male" name="gender" required>
+                <labe  for="female">Nữ</label>
+                <input type="radio" id="female" name="gender" required> <br>
+                <label for ="seat-class">Hạng ghế:</label>
+                <select id="seat-class" name = "seat -class">
+                <option value="economy">Phổ thông</option>
+                <option value="business">Thương gia</option>
+                <option value="first">Hạng nhất</option>
+                </select>
+                <button>Gửi đi</button>
+                </fieldset>
+    </div>
+</form>   
+</div>
+<br><hr><br>
+<h2>Lịch bay hôm nay</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Mã chuyến</th>
+            <th>Điểm đi</th>
+            <th>Điểm đến</th>
+            <th>Giờ bay</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>VN123</td>
+            <td>Huế </td>
+            <td>New York</td>
+            <td>08:00</td>
+            <td>Đúng giờ</td>
+        </tr>
+        <tr>
+        <td>VJ456</td>
+        <td>Hà Nội - Đà Nẵng (ĐÃ HỦY)</td>
+        <td>Vietnamese</td>
+        <td>09:00</td>
+        <td>ĐÃ HỦY</td>
+    </tr>
+
+<tr>
+    <td>VN302</td>
+    <td>Hà Nội</td>
+    <td>Tokyo</td>
+    <td>08:30</td>
+    <td>Đúng giờ</td>
+</tr>
+
+<tr>
+    <td>QH215</td>
+    <td>TP.HCM</td>
+    <td>Singapore</td>
+    <td>10:15</td>
+    <td>Trễ 20 phút</td>
+</tr>
+
+<tr>
+    <td>VJ881</td>
+    <td>Đà Nẵng</td>
+    <td>Bangkok</td>
+    <td>13:45</td>
+    <td>Đang làm thủ tục</td>
+</tr>
+
+<tr>
+    <td>VN450</td>
+    <td>Hà Nội</td>
+    <td>Paris</td>
+    <td>18:20</td>
+    <td rowspan="2">Đã hủy</td>
+</tr>
+
+<tr>
+    <td>BL601</td>
+    <td>TP.HCM</td>
+    <td>Sydney</td>
+    <td>22:10</td>
+</tr>
+    </tbody>
+</table>
+</form>
