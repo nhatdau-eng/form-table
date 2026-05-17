@@ -1,0 +1,5 @@
+prompt 1 :là một frontend developer hãy cho tôi biết vì sao form của tô không gửi dữ liệu qua URL khi dùng method GET?
+prompt 2 :là một frontend developer so sánh sự khác nhau giữa id và name trong form là gì , 
+khi nào cần dùng từng cái và dùng cả hai có ảnh hưởng gì không và mỗi cách tác động vào những hoàn cảnh nào khác nhau 
+prompt 3 :là một lập trình viên hãy cho tôi biết khi tôi đã dùng label nhưng click không focus input .
+ tôi muốn biết cơ chế for và id hoạt động như nào 
